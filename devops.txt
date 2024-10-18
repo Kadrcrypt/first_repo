@@ -1,1 +1,2 @@
 First commit of Esenbekov Kadirzhan vrfvggfgbrfgbfgbdbgtrsbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb 
+Это мой файл для проекта по DevOps.
