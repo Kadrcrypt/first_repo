@@ -31,28 +31,28 @@
 
 # 3 esep
 
-def emails(filename):
-    emails_count = {}
-    file = open(filename, 'r')
-    try:
-        for line in file:
-            if line.startswith('From '):
-                email = line.split()[1]  
-                emails_count[email] = emails_count.get(email, 0) + 1  
-    finally:
-        file.close()
+# def emails(filename):
+#     emails_count = {}
+#     file = open(filename, 'r')
+#     try:
+#         for line in file:
+#             if line.startswith('From '):
+#                 email = line.split()[1]  
+#                 emails_count[email] = emails_count.get(email, 0) + 1  
+#     finally:
+#         file.close()
     
-    return emails_count
+#     return emails_count
 
-filename = 'mbox-short.txt'
-emails = emails(filename)
+# filename = 'mbox-short.txt'
+# emails = emails(filename)
 
-max_email = None
-max_count = 0
+# max_email = None
+# max_count = 0
 
-for email, count in emails.items():
-    if count > max_count:
-        max_count = count
-        max_email = email
+# for email, count in emails.items():
+#     if count > max_count:
+#         max_count = count
+#         max_email = email
 
-print(f'Ең көп хабар келген электрондық пошта: {max_email}, хабар саны: {max_count}')
+# print(f'Ең көп хабар келген электрондық пошта: {max_email}, хабар саны: {max_count}')

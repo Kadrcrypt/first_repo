@@ -45,22 +45,23 @@ print("Тақ сандардың қосындысы:", sum_odd)
 # print("obshee:", vxozhdenie)
 
 # 7 esep
-input_str = input("vvedite: ")
-bukvy = 0
-chisla = 0
-simvoly = 0
+# input_str = input("vvedite: ")
+# bukvy = 0
+# chisla = 0
+# simvoly = 0
 
-for char in input_str:
-    if char.isalpha():
-        bukvy += 1
-    elif char.isdigit():
-        chisla += 1
-    else:
-        simvoly += 1
+# for char in input_str:
+#     if char.isalpha():
+#         bukvy += 1
+#     elif char.isdigit():
+#         chisla += 1
+#     else:
+#         simvoly += 1
+        
 
-print("Әріптер саны:", bukvy)
-print("Сандар саны:", chisla)
-print("Арнайы таңбалар саны:", simvoly)
+# print("Әріптер саны:", bukvy)
+# print("Сандар саны:", chisla)
+# print("Арнайы таңбалар саны:", simvoly)
 
 
 
